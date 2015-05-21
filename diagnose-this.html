@@ -41,15 +41,22 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse">
+     <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <!-- <a class="navbar-brand" href="#">#AIRS2015</a> -->
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li role="presentation" class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Research<span class="caret"></span></a>
+    		<ul class="dropdown-menu" role="menu">
+      			<li><a href="research.html">My Research</a></li>
+      			<li><a href="publications.html">Publications</a></li>
+      			<li><a href="projects.html">Projects</a></li>
+      			<li><a href="team.html">Team</a></li>
+      			<li><a href="students.html">HDR Supervision</a></li>
+    		</ul></li>
             <li><a href="teaching.html">Teaching</a></li>
             <li><a href="prospective_students.html">Prospective Students</a></li>
             <li><a href="cv.html">CV</a></li>
@@ -77,7 +84,7 @@
 <p>The work described in the paper was developed by myself, <a href="http://koopman.id.au/">Dr Bevan Koopman</a> (CSIRO), and <a href="http://ifs.tuwien.ac.at/~palotti/">Mr Joao Palotti</a> (UT Vienna)</p>
 
 </br>
-<h5>What this study days, in few words...</h5>
+<h5>What this study says, in few words...</h5>
 <p>In this work, we examined poorly formulated self-diagnosis queries and we found that major search engines were providing irrelevant information that could lead to incorrect self-diagnosis, self-treatment and ultimately possible harm.</p>
 
 </br>
@@ -161,7 +168,7 @@ The study was conducted using 26 queries that people would issue to search engin
 </p>
 </br>
 
-<p><b><i>Q:</i></b> <em>people increasingly turn to search engines to find medical advice. Is this a helpful or harmful trend? Why?</em> [thanks to <a href="https://twitter.com/jacksonstiles">Jackson Stiles</a> for this question]</br>
+<p><b><i>Q:</i></b> <em>People increasingly turn to search engines to find medical advice. Is this a helpful or harmful trend? Why?</em> [thanks to <a href="https://twitter.com/jacksonstiles">Jackson Stiles</a> for this question]</br>
 <b><i>A:</i></b> I think search engines have come a long way from their early days. We have seen increasing improvements in the way commercial search engines present health-related information. Current search engines are great for providing a wealth of information about illnesses and diseases, if you can clearly name these in your queries. For example, in the US Google is currently experimenting returning clear health cards at the top of their search results for queries about specific conditions or diseases, ranging from headache to tonsillitis, celiac disease and so on. This information has been fact-checked by doctors, it shows the incidence of the conditions on the population and a lot of other useful information. 
 However, as our study shows, there is yet a lot of road to do before getting very reliable search engines for finding information about health concerns, in particular for self-diagnosis and treatment, where you don’t know exactly what you have, and therefore you issue more ambiguous, underspecified queries. Indeed, answering these type of searches is difficult because the search engine cannot rely on simple keyword matching or more sophisticated techniques search engines currently use; the queries instead require a profound understanding of language and medical information, and possibly more information about the user and their conditions. 
 Thus, searching for health advice can often lead you to very good and helpful information, often curated by experts and produced by health organisations. This information can help you better understand your medical conditions and often improve the way you face them. However, replacing a doctor with a search engine is not a good idea: our research has shown that, with the current search engines, if you attempt to self diagnose yourself, you often end up finding incorrect or misleading information, which indeed could be detrimental to your health.
