@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Page dedicated to Diagnose this if you can - ">
+    <meta name="author" content="Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
+
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63833063-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+     <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <a class="navbar-brand" href="#">#AIRS2015</a> -->
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li role="presentation" class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Research<span class="caret"></span></a>
+    		<ul class="dropdown-menu" role="menu">
+      			<li><a href="research.html">My Research</a></li>
+      			<li><a href="publications.html">Publications</a></li>
+      			<li><a href="projects.html">Projects</a></li>
+      			<li><a href="team.html">Team</a></li>
+      			<li><a href="students.html">HDR Supervision</a></li>
+    		</ul></li>
+    		<li><a href="publications.html">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="prospective_students.html">Prospective Students</a></li>
+            <li><a href="https://github.com/ielab">ielab@GitHub</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+              <h2>Neural Translation Language Models for Information Retrieval</h2>
+<p>The research portrayed in this webpage, along with the provided resources, are part of the ADCS 2015 full paper G. Zuccon, B. Koopman, P. Bruza, L. Azzopardi, <a href="http://dl.acm.org/citation.cfm?doid=2838931.2838936">Integrating and Evaluating Neural Word Embeddings in Information Retrieval</a>, ADCS '15 Proceedings of the 20th Australasian Document Computing Symposium.</p>
+</br>
+
+<p>Resources associated with the paper are available in this webpage (<a href="#ADCS2015_embeddings">embeddings</a>) and on <a href="https://github.com/guidozuc/adcs2015-NTLM">the dedicated space in GitHub</a>.</p>
+</br>
+
+<h5>What this study says, in few words...</h5>
+<p>...</p>
+
+</br>
+<h5>The long story: More details</h5>
+<p>...</p>
+</br>
+
+<h2>Resources</h2>
+<h3 id="ADCS2015_embeddings">Word Embeddings Released with the ADCS 2015 paper</h3>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;border-top-width:1px;border-bottom-width:1px;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;border-top-width:1px;border-bottom-width:1px;}
+</style>
+<table class="tg">
+ <tr>
+  <th class="tg-031e">Embedding Type</th>
+  <th class="tg-031e">Collection</th>
+  <th class="tg-031e">Embedding File</th>
+  <th class="tg-031e">Size</th>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>324M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>322M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>69M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>68M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>101M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>101M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>134M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>133M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>166M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>165M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>198M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>196M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>230M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>228M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>261M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>259M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>293M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>293M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>294M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>287M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>291M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_cbow_s900_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_cbow_s900_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>292M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>314M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>313M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s200_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s200_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>99M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>98M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>130M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>130M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>161M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>161M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>192M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>191M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>223M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>222M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>253M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>252M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>284M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>AP88-89</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_ap8889_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_ap8889_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>283M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>5.9G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>5.7G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>616M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>1.1G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>616M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>2.4G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>3.5G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>3.5G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>4.7G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>4.6G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>5.6G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>5.6G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>616M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>1.1G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>616M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>3.4G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>3.5G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>3.4G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>DOTGOV</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_dotgov_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_dotgov_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>4.5G</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>88M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>88M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>9.6M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>9.6M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>19M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>19M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>28M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>28M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>37M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>37M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>46M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>45M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>54M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>54M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>63M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>62M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>71M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>71M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>80M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>79M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>88M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>88M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>9.7M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>9.6M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>19M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>19M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>28M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>28M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>37M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>37M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>46M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>45M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>54M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>54M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>63M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>62M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>71M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>71M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>80M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">Skipgram</td>
+  <td>MedTrack</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_medtrack_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_medtrack_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>79M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>SJM (disk 3)</span></td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_sjmdisk3_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_sjmdisk3_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>54M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>SJM (disk 3)</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_sjmdisk3_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_sjmdisk3_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>53M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>760M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>747M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>82M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>81M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>159M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>158M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>236M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>233M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>312M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>308M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>387M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>382M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>462M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>456M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>537M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>529M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>611M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>602M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>686M</td>
+ </tr>
+ <tr>
+  <td class="tg-031e">CBOW</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>675M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>735M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>728M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>81M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>81M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>157M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>155M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>231M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>229M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>304M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>302M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>377M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>374M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>449M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>445M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>522M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>517M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>593M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>588M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>665M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>Wiki1B</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wiki1B_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wiki1B_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>658M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>322M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>318M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s100_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s100_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>35M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>68M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>67M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>100M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>99M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>132M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>131M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>164M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>163M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>196M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>194M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>228M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>225M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>259M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>256M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>290M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>CBOW</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_cbow_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>287M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s1000_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>309M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s1000_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>308M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s100_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>34M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s100_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>34M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s1500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s1500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>455M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s200_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>66M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s200_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>66M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s300_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>97M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s300_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>97M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s400_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>128M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s400_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>128M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>159M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w15_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>159M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w20_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>159M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w2_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>158M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>158M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s500_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s500_w7_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>159M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s600_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>189M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s600_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>189M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s700_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>219M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s700_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>219M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s800_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>250M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s800_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>249M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s900_w10_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>279M</td>
+ </tr>
+ <tr>
+  <td height=15 class=xl65 style='height:15.0pt'>Skipgram</td>
+  <td>WSJ87-92</td>
+  <td><a href="adcs2015_ntlm/w2v_embeddings/vectors_wsj_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz">vectors_wsj_skipgram_s900_w5_neg20_hs0_sam1e-4_iter5.txt.tar.gz</a></td>
+  <td>278M</td>
+ </tr>
+</table>
+
+</br>
+
+
+</br>
+<p><em>If you are interested in this research or have any enquiry, then please <a href="mailto:g.zuccon@qut.edu.au?Subject=NTLM" target="_top">get in touch with us</a>!</em></p>
+</br>
+
+
+</br>
+<h4>FAQs</h4>
+
+<p><b><i>Q:</i></b> <em>Are the components of the word embeddings used in the ADCS 2015 paper all positive-valued?</em> [thanks to <a href="https://scholar.google.com/citations?user=wjBD1dkAAAAJ">Timothy Baldwin</a> for this question]</br>
+<b><i>A:</i></b> ...
+</p>
+</br>
+
+
+
+
+
+
+
+<!--<p><b><i>Q:</i></b> <em>xx</em></br>
+<b><i>A:</i></b> yy.
+</p>
+</br>-->
+
+
+
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+       <div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar">
+          <h3>Fast Access to NTLM resources</h3>
+          <!-- <table class="table table-hover"> -->
+          <table class="table table-condensed">
+            <tbody>
+              <tr>
+                <td>GitHub repository (ADCS'15 paper)</td>
+                <td><a href="https://github.com/guidozuc/adcs2015-NTLM">adcs2015-NTLM</a></td>
+              </tr>
+              <tr>
+                <td>ADCS 2015 paper (in ACM DL)</td>
+                <td><a href="http://dl.acm.org/citation.cfm?doid=2838931.2838936">Integrating and...</a></td>
+              </tr>
+                           
+            </tbody>
+          </table>
+
+          <h3>Latest Tweets by @guidozuc</h3>
+
+          <a class="twitter-timeline" href="https://twitter.com/guidozuc" data-widget-id="599068920117493761">Tweets by @guidozuc</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div><!--/.sidebar-offcanvas-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>  
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/offcanvas.js"></script>
+  
+
+</body></html>
