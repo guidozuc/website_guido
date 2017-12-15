@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Page dedicated to Diagnose this if you can - ">
-    <meta name="author" content="Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology">
+    <meta name="author" content="Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology">
     <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
 
-    <title>Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology</title>
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -79,17 +79,26 @@
           
           <div class="row">
             <div class="col-xs-12 col-sm-12">
-              <h2>Contact me</h2>
+              <h2>Team</h2>
 </br>
-<p>Find me on Twitter, or email me at g.zuccon _AT_ qut.edu.au</p>
-<p>My office is located in QUT's GP campus, office S-1023.</p>
+<h3>Current PhD Students</h3>
+<p>Jimmy -- Understanding and Modelling Key Factors Affecting Trustworthiness and Understandability of Medical Advice on the Web</p>
+<p>Mahnoosh Kholghi -- Clinical Information Extraction with Active Learning (associate supervisor)</p>
+<p>Anton van der Vegt -- Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search</p>
+
+<h3>Current Honours Students</h3>
+<p>Harrisen (Harry) Scells - Annotation Strategies for Lifelogging Search</p>
+
+<h3>Past HDR Students</h3>
+<p>Timothy Chappell (completed 2015) - Scalable Document Hashing and Retrieval (associate supervisor)</p>
 <!--<p><b><i>Q:</i></b> <em>xx</em></br>
 <b><i>A:</i></b> yy.
 </p>
 </br>-->
 
-
-
+<h3>External Collaborators</h3>
+<p>Dr. Bevan Koopman, Australian E-Health Research Centre, CSIRO</p>
+<p>Mr. Joao Palotti, Vienna University of Technology, Austria</p>
             </div><!--/.col-xs-6.col-lg-4-->
             
           </div><!--/row-->

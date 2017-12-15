@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Page dedicated to Diagnose this if you can - ">
-    <meta name="author" content="Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology">
+    <meta name="author" content="Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology">
     <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
 
-    <title>Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology</title>
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -79,10 +79,32 @@
           
           <div class="row">
             <div class="col-xs-12 col-sm-12">
-              <h2>Contact me</h2>
+              <h2>My Research</h2>
+              
+              <p>My research interests span a number of topics:
+</p>
+<ul>
+<li><b>Formal models of Information Retrieval</b>; in particular I am interested in</li>
+  <ul>
+      <li>models of search, information seeking and interactions</li>
+    <li>semantic models of search</li>
+    <li>exploiting word embeddings in Information Retrieval</li>
+    <li>evaluation of Information Retrieval (including task-based evaluation)</li>
+  </ul>
+  </li>
+  <li><b>Medical/Health Information Retrieval</b>; in particular I am interested in</li>
+  <ul>
+      <li>retrieval models &amp; strategies for consumers searching the web for health advise</li>
+    <li>retrieval models &amp; strategies for cohort identification for clinical trials</li>
+    <li>retrieval models &amp; strategies for clinical decision support and evidence-based medicine</li>
+    <li>retrieval models &amp; strategies for automatic systematic review</li>
+    <li>health search evaluation</li>
+  </ul>
+ <!-- <li><b>From ranked documents to solutions:</b> a new paradigm for Information Retrieval.</li> -->
+</ul>
+</p>
 </br>
-<p>Find me on Twitter, or email me at g.zuccon _AT_ qut.edu.au</p>
-<p>My office is located in QUT's GP campus, office S-1023.</p>
+<p>See my <a href="publications.html">publications</a> for more information (also see <a href="http://scholar.google.com/citations?user=aEVHhC8AAAAJ&hl=en">my Google Scholar profile</a> for an up to date list of publications).</p>
 <!--<p><b><i>Q:</i></b> <em>xx</em></br>
 <b><i>A:</i></b> yy.
 </p>

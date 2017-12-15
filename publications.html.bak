@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Page dedicated to Diagnose this if you can - ">
-    <meta name="author" content="Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology">
+    <meta name="author" content="Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology">
     <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
 
-    <title>Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology</title>
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -89,55 +89,6 @@
 </br>-->
 
 <!-- Start publications -->
-<br>
-<div class="alert alert-info"> 2018</div>
-
-<p> <b><a href="publications/">Choices in Knowledge-Base Retrieval for Consumer Health Search</a></b><br>
-<i>Jimmy, G Zuccon, B Koopman</i>; European Conference on Information Retrieval (ECIR 2018) (to appear in 2018) <span class="label label-success">Full Paper</span></p>
-<p> <b><a href="publications/azzopardi-zuccon-2017-tutorial-economics.pdf">Economic Models of Interaction</a> (A Tutorial on Modeling Interaction using Economics)</b><br>
-<i>L Azzopardi, G Zuccon</i>; Chapter 11: Computational Interaction. Antti Oulasvirta, Per Ola Kristensson, Xiaojun Bi, Andrew Howes (Eds), Oxford University Press. (to appear in 2018) <span class="label label-success">Book Chapter </span></p>
-
-<br>
-<div class="alert alert-info"> 2017</div>
-<p> <b><a href="publications/">Fixed Budget Pooling Strategies based on Fusion Methods</a></b><br>
-<i>A Lipani, M Lupu, J Palotti, G Zuccon, A Hanbury</i>; Proceedings of ACM SAC'17 <span class="label label-success">Full Paper</span></p>
-<p> <b><a href="publications/">Fixed-cost pooling strategies based on IR evaluation measures</a></b><br>
-<i>A Lipani, J Palotti, M Lupu, F Piroi, G Zuccon, A Hanbury</i>; European Conference on Information Retrieval (ECIR 2017) <span class="label label-success">Full Paper</span></p>
-<p> <b><a href="publications/">Classifying help seeking behaviour in online communities</a></b><br>
-<i>S Cross, Z Waters, K Kitto, G Zuccon</i>; Proceedings of the Seventh International Learning Analytics and Knowledge Conference (LAK) <span class="label label-success">Full Paper</span></p>
-<p> <b><a href="publications/">Task-oriented search for evidence-based medicine</a></b><br>
-<i>B Koopman, J Russell, G Zuccon</i>;  International Journal on Digital Libraries <span class="label label-primary">Journal</span></p>
-<p> <b><a href="publications/">SIGIR 2017 Tutorial on Health Search (HS2017): A Full-day from Consumers to Clinicians</a></b><br>
-<i>G Zuccon, B Koopman</i>;  Proceedings of the ACM SIGIR Conference <span class="label label-info">Tutorial</span></p>
-<p> <b><a href="publications/">Generating Clinical Queries from Patient Narratives</a></b><br>
-<i>B Koopman, L Cripwell, G Zuccon,</i>; Proceedings of the ACM SIGIR Conference <span class="label label-warning">Short Paper</span></p>
-<p> <b><a href="publications/">A task-oriented search engine for evidence-based medicine</a></b><br>
-<i>B Koopman, G Zuccon, J Russell</i>; Proceedings of the ACM SIGIR Conference <span class="label label-info">Demo Paper</span></p> 
-<p> <b><a href="publications/">A test collection for evaluating retrieval of studies for inclusion in systematic reviews</a></b><br>
-<i>H Scells, G Zuccon, B Koopman, A Deacon, L Azzopardi, S Geva,</i>; Proceedings of the ACM SIGIR Conference <span class="label label-warning">Short Paper</span></p>
-<p> <b><a href="publications/">The Lucene for Information Access and Retrieval Research (LIARR) Workshop at SIGIR 2017</a></b><br>
-<i>L Azzopardi, M Crane, H Fang, G Ingersoll, J Lin, Y Moshfeghi, H Scells, P Yang, G Zuccon</i>; Proceedings of the ACM SIGIR Conference <span class="label label-info">Workshop Proposal</span></p>
-<p> <b><a href="publications/">Clef 2017 ehealth evaluation lab overview</a></b><br>
-<i>L Goeuriot, L Kelly, H Suominen, A Névéol, A Robert, E Kanoulas, R Spijker, J Palotti, G Zuccon</i>;  International Conference of the Cross-Language Evaluation Forum for European Languages (CLEF) <span class="label label-success">Full Paper</span></p>
-<p> <b><a href="publications/">Clef 2017 task overview: The IR task at the ehealth evaluation lab</a></b><br>
-<i>J Palotti, G Zuccon, Jimmy, P Pecina, M Lupu, L Goeuriot, L Kelly, A Hanbury</i>;  Working Notes of Conference and Labs of the Evaluation (CLEF) Forum. <span class="label label-info">Task Overview Paper</span></p>
-<p> <b><a href="publications/">Clinical information extraction using small data: An active learning approach based on sequence representations and word embeddings</a></b><br>
-<i>M Kholghi, L De Vine, L Sitbon, G Zuccon, A Nguyen</i>; Journal of the Association for Information Science and Technology <span class="label label-primary">Journal</span></p>
-<p> <b><a href="publications/">Active learning reduces annotation time for clinical concept extraction</a></b><br>
-<i>M Kholghi, L Sitbon, G Zuccon, A Nguyen</i>; International Journal of Medical Informatics <span class="label label-primary">Journal</span></p>
-<p> <b><a href="publications/">QUT ielab at CLEF eHealth 2017 technology assisted reviews track: Initial experiments with learning to rank</a></b><br>
-<i>H Scells, G Zuccon, A Deacon, B Koopman</i>; Working Notes of CLEF 2017: Conference and Labs of the Evaluation Forum <span class="label label-info">Working Notes Paper</span></p>
-<p> <b><a href="publications/">What makes an effective clinical query and querier?</a></b><br>
-<i>B Koopman, G Zuccon, P Bruza</i>; Journal of the Association for Information Science and Technology <span class="label label-primary">Journal</span></p>
-<p> <b><a href="publications/">Integrating the framing of clinical questions via PICO into the retrieval of medical literature for systematic reviews</a></b><br>
-<i>H Scells, G Zuccon, B Koopman, A Deacon, L Azzopardi, S Geva</i>; Proceedings of CIKM 2017 <span class="label label-warning">Short Paper</span></p>
-<p> <b><a href="publications/">Automatic Query Generation from Legal Texts for Case Law Retrieval</a></b><br>
-<i>D Locke, G Zuccon, H Scells</i>; Asia Information Retrieval Symposium (AIRS 2017) <span class="label label-success">Full Paper</span> <span class="label label-danger">Best Paper Award</span></p>
-<p> <b><a href="publications/">Automatic cited decision retrieval: Working notes of Ielab for FIRE Legal Track Precedence Retrieval Task</a></b><br>
-<i>D Locke,G Zuccon, Guido</i>; Working notes of FIRE 2017 <span class="label label-info">Working Notes Paper</span></p>
-<p> <b><a href="publications/adcs2017_initial.pdf">An Initial Study of Anchor Selection in Patent Link Discovery</a></b><br>
-<i>D Seneviratne, S Geva, G Zuccon, A Trotman</i>; Proceedings of ADCS 2017 <span class="label label-warning">Short Paper</span></p>
-
 <br>
 <div class="alert alert-info"> 2016</div>
 <p> <b><a href="publications/cikm2016_mean_variance_evaluation.pdf">Query Variations and their Effect on Comparing Information Retrieval Systems</a></b><br>

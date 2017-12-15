@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Page dedicated to Diagnose this if you can - ">
-    <meta name="author" content="Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology">
+    <meta name="author" content="Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology">
     <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
 
-    <title>Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology</title>
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -79,10 +79,38 @@
           
           <div class="row">
             <div class="col-xs-12 col-sm-12">
-              <h2>Contact me</h2>
+              <h2>Prospective Students</h2>
 </br>
-<p>Find me on Twitter, or email me at g.zuccon _AT_ qut.edu.au</p>
-<p>My office is located in QUT's GP campus, office S-1023.</p>
+<p>Are you a student wanting to do research on search engines? </p>
+<p>Are you keen to improve how medical information is accessed? </p>
+<p>Are you keen to understand how people search, where they succeed and why they fail? </p>
+<p>Are you interested in mathematical models for search (including interactive search)? </p>
+<p>Then <a href="mailto:g.zuccon@qut.edu.au?Subject=Prospective%20Student" target="_top">get in touch</a>. We have Honours and PhD positions available; we also regularly offer undergraduate and master projects (these are published through QUT's InPlace).
+</p>
+
+
+<img src="img/iwantyou.jpg" class="img-responsive" alt="Join our research team">
+
+<!--<div class="jumbotron" style="background-image: url('img/iwantyou.jpg'); background-size: 30%; background-position: 0px 00px;">
+            <h1>AIRS 2015</h1>
+            <p class="welcome">Welcome to the official website of the Asian Information Retrieval Societies Conference, 2-4 December 2015, Brisbane, Queensland, Australia.</p>
+          </div>-->
+</br>
+<p>Example topics of research for prospective students include:
+<ul>
+<li><strong>Consumer health search:</strong> how everyday people search for medical advice using web search engines; how to make search engines more effective for this task; aspects that influence relevance in this task and their inclusion in the evaluation of search engines.</li>
+
+<li><strong>Clinical information retrieval:</strong> how clinicians search for evidence based medicine and medical knowledge; effective systems for finding evidence based medicine; effective systems for cohort selection for clinical trials; systems powered by search and text mining capabilities to automatize systematic reviews.</li>
+
+<li><strong>Formal models of semantic search: </strong> development and evaluation of search methods that exploit semantics, e.g. that use word embeddings; models based on knowledge graphs.</li>
+
+<li><strong>Formal models of interactions: </strong> how to model the user; what are the factors that influence the interaction between the user and the search system.</li>
+
+<li><strong>App search: </strong> how do people search for apps, e.g. which queries do they issue and which search behaviour do they show; effective systems for finding apps according to the task that needs to be accomplished/functionalities that are required.</li>
+
+<!--<li><strong>Tools for search engine evaluation: </strong> 1. extensions to <a href="https://github.com/ielab/relevation">Relevation!</a>, including logging, configuration menus, runs evaluations, multi-user support; 2. prototyping of evidence based medicine search engine.</li>-->
+</ul>
+</p>
 <!--<p><b><i>Q:</i></b> <em>xx</em></br>
 <b><i>A:</i></b> yy.
 </p>

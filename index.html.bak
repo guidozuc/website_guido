@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dr Guido Zuccon - Senior Lecturer in Information Retrieval - Queensland University of Technology</title>
+    <title>Dr Guido Zuccon - Lecturer in Information Retrieval - Queensland University of Technology</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
             <h1>Dr. Guido Zuccon</h1>
             <p class="welcome">Welcome to the official website of the Asian Information Retrieval Societies Conference, 2-4 December 2015, Brisbane, Queensland, Australia.</p>
           </div> -->
-          <h1>Dr. Guido Zuccon</h1><p>I am a senior lecturer at QUT's <a href="https://www.qut.edu.au/science-engineering/our-schools/school-of-electrical-engineering-and-computer-science" target="_blank">Electrical Engineering and Computer Science School</a>, an ARC DECRA Fellow (2018-2020), and the research leader of the <a href="http://ielab.github.io/">ielab</a>. My research interests span a number of topics:
+          <h1>Dr. Guido Zuccon</h1><p>I am a lecturer at QUT's <a href="http://www.qut.edu.au/science-engineering/about/about-the-faculty/school-of-information-systems/about-the-school" target="_blank">Information Systems School</a>. My research interests span a number of topics:
 </p>
 <ul>
 <li><b>Formal models of Information Retrieval</b>; in particular I am interested in</li>
@@ -100,13 +100,13 @@
   </ul>
  <!-- <li><b>From ranked documents to solutions:</b> a new paradigm for Information Retrieval.</li> -->
 </ul>
-If you are a QUT student, or a prospective one, and you are interested to work with me as part of your studies, you can find student projects for PhD, Master, Honours and courseworks <a href="http://ielab.github.io/student-projects.html">here</a> and <a href="prospective_students.html">here</a>. I also welcome international higher education students wanting to do a research visit and collaborating on ideas within my research interests.</p>
+If you are a QUT student, or a prospective one, and you are interested to work with me as part of your studies, you can find student projects for PhD, Master, Honours and courseworks <a href="pages/prospective_students.html">here</a>. I also welcome international higher education students wanting to do a research visit and collaborating on ideas within my research interests.</p>
 
 <div class="row">
 <div class="col-xs-6 col-lg-12">
 <h2>PhD Scholarship Available</h2>
-              <p>One PhD scholarship available for students interested in developing search and text mining methods  for consumer health search (part of ARC funded project) ...</p>
-              <p><a class="btn btn-default" href="prospective_students.html" role="button">View details »</a></p>
+              <p>One PhD scholarship (with possible top-up) available for students interested in developing search and text mining methods to make the process of creating systematic reviews automatic ...</p>
+              <p><a class="btn btn-default" href="systematicrevs_phd.html" role="button">View details »</a></p>
 </div><!--/.col-xs-6.col-lg-12-->
 </div><!--/row-->
 
